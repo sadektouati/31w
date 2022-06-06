@@ -7,13 +7,13 @@ if (have_posts()):
         <p><?php the_content() ?></p>
 
 <?php
-    $contenu = get_the_content();
-    echo wp_trim_words($contenu, 20, "...");
+    $titre = get_the_title();
+    $sigle = substr($titre, 0, 8);
+    $heure = substr($titre, -8)
 ?>
 
-<p>
-    <?= wp_trim_words(get_the_content(), 20, "<a href='".get_the_permalink()."' class=button>" . substr(get_the_title(), 0, 8) . "</a>") ?>
-</p>
+<code><?= $sigle ?></code>
+<code><?= $heure ?></code>
 
     <?php endwhile; ?>
 <?php endif; ?>    

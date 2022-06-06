@@ -2,7 +2,7 @@
 ## Premier thème et plugin  Wordpress
 ### Contient 3 commits
 
-> Le thème conient 5 fichiers:
+> Le thème conient 5 fichiers et le readme file:
 index.php
 style.css
 functions.php

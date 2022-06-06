@@ -11,7 +11,4 @@ function mon_31w_setup() {
 } 
 add_action( 'after_setup_theme', 'mon_31w_setup' );
 
-
-
-
 ?>

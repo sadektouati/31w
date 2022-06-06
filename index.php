@@ -12,7 +12,7 @@ if (have_posts()):
 ?>
 
 <p>
-    <?= wp_trim_words(get_the_content(), 20, "<a href='".get_the_permalink()."'>" . substr(get_the_title(), 0, 8) . "</a>") ?>
+    <?= wp_trim_words(get_the_content(), 20, "<a href='".get_the_permalink()."' class=button>" . substr(get_the_title(), 0, 8) . "</a>") ?>
 </p>
 
     <?php endwhile; ?>

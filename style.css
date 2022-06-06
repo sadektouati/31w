@@ -474,6 +474,7 @@ a:hover, a:active {
 
 /* Forms
 --------------------------------------------- */
+.button,
 button,
 input[type="button"],
 input[type="reset"],
@@ -487,6 +488,7 @@ input[type="submit"] {
   padding: 0.6em 1em 0.4em;
 }
 
+.button:hover,
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -494,7 +496,9 @@ input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
 }
 
-button:active, button:focus,
+.button:active, .button:focus,
+button:active,
+button:focus,
 input[type="button"]:active,
 input[type="button"]:focus,
 input[type="reset"]:active,
@@ -551,5 +555,9 @@ select {
 
 textarea {
   width: 100%;
+}
+
+body {
+  background-color: #acacfd;
 }
 /*# sourceMappingURL=style.css.map */

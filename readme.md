@@ -12,3 +12,5 @@ readme.md
 
 Pour plus d'information sur la conception de thème
 [WP developper guide](https://developper.wordpress.org/theme)
+
+Juste pour tester la branche exer1 (remote)

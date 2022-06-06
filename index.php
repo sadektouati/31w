@@ -11,9 +11,9 @@ if (have_posts()):
     echo wp_trim_words($contenu, 20, "...");
 ?>
 
-
-
-<p><?= wp_trim_words(get_the_content(), 20, "<a href='".get_the_permalink()."'>Lire plus</a>") ?></p>
+<p>
+    <?= wp_trim_words(get_the_content(), 20, "<a href='".get_the_permalink()."'>" . get_the_title() . "</a>") ?>
+</p>
 
     <?php endwhile; ?>
 <?php endif; ?>    

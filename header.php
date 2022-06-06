@@ -18,10 +18,10 @@
     <section class="site">
         <header class="site__header">
             <section class="site__branding">
-                titre du site
+                Mon premier site wordpress
             </section>
             <nav class="site__navigation">
-            Menu
+            Mon menu
             </nav>
         </header>
     

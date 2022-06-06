@@ -21,7 +21,7 @@
                 Mon premier site wordpress
             </section>
             <nav class="site__navigation">
-            Mon menu
+            Le menu va etre generer par worpress
             </nav>
         </header>
     

@@ -1,6 +1,6 @@
 # Exercice - 1
 ## Premier thème et plugin  Wordpress
-### Contient 3 commits
+### Contient plusieurs commits
 
 > Le thème conient 5 fichiers et le readme file:
 index.php

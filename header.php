@@ -18,7 +18,10 @@
     <section class="site">
         <header class="site__header">
             <section class="site__branding">
-                Mon premier site wordpress
+               <h1>
+                   <a href="<?= esc_url( home_url( '/' ) ); ?>"><?= bloginfo( 'name' ); ?></a>
+               </h1>
+               <h2><?= bloginfo( 'description' ); ?></h2>
             </section>
             <nav class="site__navigation">
             Le menu va etre generer par worpress

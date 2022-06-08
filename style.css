@@ -558,6 +558,12 @@ textarea {
 }
 
 body {
-  background-color: #acacfd;
+  padding: 2rem;
+}
+
+.site {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

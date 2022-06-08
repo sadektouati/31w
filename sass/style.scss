@@ -67,5 +67,11 @@ Text Domain: 31-w
 @import "base/base";
 
 body{
-	background-color: rgb(172, 172, 253);
+	padding: 2rem;
+}
+
+.site{
+	border: 1px solid;
+    padding: 1rem;
+    border-radius: 1rem;
 }

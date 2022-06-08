@@ -69,9 +69,14 @@ Text Domain: 31-w
 body{
 	padding: 2rem;
 }
-
+.button{
+	
+}
 .site{
 	border: 1px solid;
     padding: 1rem;
     border-radius: 1rem;
+	*+*{
+		margin-top: 2rem;
+	}
 }

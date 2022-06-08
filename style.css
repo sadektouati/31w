@@ -561,6 +561,11 @@ body {
   padding: 2rem;
 }
 
+.button {
+  font-style: italic;
+  color: #ec407a;
+}
+
 .site {
   border: 1px solid;
   padding: 1rem;

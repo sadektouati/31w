@@ -50,6 +50,9 @@
 	font-size: 1.1rem;
 	line-height: 1.5;
 }
+.site__main p + p{
+	margin-top: 2rem;
+}
 
 .site__main .button {
 	margin-inline-start: .75rem;

@@ -635,6 +635,10 @@ textarea {
   line-height: 1.5;
 }
 
+.site__main p + p {
+  margin-top: 2rem;
+}
+
 .site__main .button {
   margin-inline-start: .75rem;
   color: #4169e1;

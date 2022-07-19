@@ -18,8 +18,8 @@
 	padding-inline: 3rem;
 }
 
-.site__header {
-	grid-area: header;
+.site__header > * + * {
+	margin-top: 1rem;
 }
 
 .site__header a {
@@ -27,7 +27,9 @@
 }
 
 .site__header h2 {
+	margin-top: 1rem;
 	border-bottom: 2px solid orangered;
+	color: gray;
 }
 
 .site__main {

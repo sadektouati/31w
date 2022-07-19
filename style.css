@@ -668,7 +668,7 @@ textarea {
   font-size: 1rem;
 }
 
-.site__sidebar .menu-menu-sidebar {
+.site__sidebar .menu__sidebar__ul {
   padding: 0;
   margin: 0;
   list-style: none;

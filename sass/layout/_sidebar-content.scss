@@ -76,7 +76,7 @@
 .site__sidebar {
 	grid-area: sidebar;
 	background-color: lighten($color-background__zonegrid, 20%);
-	* + *{
+	> * + *{
 	margin-top: 2rem;
 	}
 
@@ -88,6 +88,14 @@
 		padding: 0;
 		margin: 0;
 		list-style: none;
+
+		a{
+			padding: .5rem 1rem;
+			display: block;
+			font-family: arial;
+			line-height: 1.5;
+			color: gray;
+		}
 	}
 }
 

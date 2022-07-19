@@ -660,7 +660,7 @@ textarea {
   background-color: #ede9fe;
 }
 
-.site__sidebar * + * {
+.site__sidebar > * + * {
   margin-top: 2rem;
 }
 
@@ -672,6 +672,14 @@ textarea {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.site__sidebar .menu__sidebar__ul a {
+  padding: .5rem 1rem;
+  display: block;
+  font-family: arial;
+  line-height: 1.5;
+  color: gray;
 }
 
 .site__footer {

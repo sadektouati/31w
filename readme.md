@@ -2,7 +2,7 @@
 ## thème et plugin  Wordpress
 ### Contient plusieurs commits
 
-Lien de la [github-page](https://github.com/sadektouati/31w/tree/tp1)
+Lien (https://github.com/sadektouati/31w/tree/tp1)
 
 > Le thème conient 5 fichiers et le readme file:
 index.php

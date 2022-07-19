@@ -28,5 +28,11 @@
             </nav>
         </header>
         <section class="site__sidebar">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis sed totam deleniti quasi quam reprehenderit mollitia tempora consequuntur eius. Libero necessitatibus tempora dicta nam repellendus, nemo consectetur officiis deleniti.</h3>
+            <h3>Un sous titre</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis sed totam deleniti quasi quam reprehenderit mollitia tempora consequuntur eius. Libero necessitatibus tempora dicta nam repellendus, nemo consectetur officiis deleniti.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis sed totam deleniti quasi quam reprehenderit mollitia tempora consequuntur eius. Libero necessitatibus tempora dicta nam repellendus, nemo consectetur officiis deleniti.
+            </p>
         </section>

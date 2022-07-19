@@ -634,6 +634,14 @@ textarea {
   background-color: #ede9fe;
 }
 
+.site__sidebar * + * {
+  margin-top: 2rem;
+}
+
+.site__sidebar p {
+  font-size: 1rem;
+}
+
 .site__footer {
   grid-area: footer;
   background-color: #ede9fe;

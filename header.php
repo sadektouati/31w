@@ -28,6 +28,16 @@
             </nav>
         </header>
         <section class="site__sidebar">
+
+            <h3>contenu pertinent</h3>
+
+            <?php wp_nav_menu(array(
+                        'menu' => '',
+                        'container' => 'nav',
+                        'container_class' => 'menu__sidebar',
+                        'menu_class' => 'menu__sidebar__ul'
+            )) ?>
+    
             <h3>Un sous titre</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis sed totam deleniti quasi quam reprehenderit mollitia tempora consequuntur eius. Libero necessitatibus tempora dicta nam repellendus, nemo consectetur officiis deleniti.

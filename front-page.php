@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="main">
+<section class="site__main">
     <h1>Mon premier modèle Wordpress</h1>
     <?php
     if (have_posts()):

@@ -1,27 +1,59 @@
 .site {
 	display: grid;
 	gap: 2rem;
+	grid-template-areas:
+		"header"
+		"main"
+		"sidebar"
+		"footer";
 }
 
 .site > * {
-	padding-inline: 2rem;
+	padding: 2rem;
 }
 
 
 .site__header {
+	grid-area: header;
 	background-color: $color-background__zonegrid;
 }
 
 .site__main {
+	grid-area: main;
 	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
-	background-color: lighten($color-background__zonegrid, 10%);
+}
+.site__main > * + *{
+	margin-top: 1rem;
 }
 
+.site__main h2 {
+	margin-top: 3rem;
+	color: gray;
+	border-bottom: 1px solid;
+}
+.site__main p {
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+
+.site__main .button {
+	margin-inline-start: .75rem;
+	color: $color__link;
+}
+.site__main .button:hover {
+	color: $color__link-hover;
+}
+
+
+
+
 .site__sidebar {
+	grid-area: sidebar;
 	background-color: lighten($color-background__zonegrid, 20%);
 }
 
 .site__footer {
+	grid-area: footer;
 	background-color: lighten($color-background__zonegrid, 20%);
 	padding: 1rem;
 }
@@ -36,21 +68,6 @@
 		"sidebar main"
 		"footer footer";
 	}
-	.site__header {
-		grid-area: header;
-	}
-	.site__main {
-		grid-area: main;
-	}
-	.site__sidebar {
-		grid-area: sidebar;
-	}
-	.site__footer {
-		grid-area: footer;
-		background-color: lighten($color-background__zonegrid, 20%);
-		padding: 1rem;
-	}
-
 }
 	
 // @import "no-sidebar";

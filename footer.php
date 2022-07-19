@@ -1,5 +1,8 @@
 <footer class="site__footer">
-    <h2>Le pied de page de mon site wordpress</h2>
+    <h2>Touati Saddek</h2>
+    <span>
+    theme pour TP
+    </span>
 </footer>
 
 <?php wp_footer(); ?>

@@ -587,49 +587,63 @@ textarea {
 .site {
   display: grid;
   gap: 2rem;
+  grid-template-areas: "header" "main" "sidebar" "footer";
 }
 
 .site > * {
-  padding-inline: 2rem;
+  padding: 2rem;
 }
 
 .site__header {
+  grid-area: header;
   background-color: #9d86fb;
 }
 
 .site__main {
+  grid-area: main;
   overflow: hidden;
   /* Resolves issue with <pre> elements forcing full width. */
-  background-color: #c5b7fd;
+}
+
+.site__main > * + * {
+  margin-top: 1rem;
+}
+
+.site__main h2 {
+  margin-top: 3rem;
+  color: gray;
+  border-bottom: 1px solid;
+}
+
+.site__main p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.site__main .button {
+  margin-inline-start: .75rem;
+  color: #4169e1;
+}
+
+.site__main .button:hover {
+  color: #191970;
 }
 
 .site__sidebar {
+  grid-area: sidebar;
   background-color: #ede9fe;
 }
 
 .site__footer {
+  grid-area: footer;
   background-color: #ede9fe;
   padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
   .site {
-    grid-template-columns: 20vw auto;
+    grid-template-columns: 20rem auto;
     grid-template-areas: "header header" "sidebar main" "footer footer";
-  }
-  .site__header {
-    grid-area: header;
-  }
-  .site__main {
-    grid-area: main;
-  }
-  .site__sidebar {
-    grid-area: sidebar;
-  }
-  .site__footer {
-    grid-area: footer;
-    background-color: #ede9fe;
-    padding: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -66,20 +66,28 @@ Text Domain: 31-w
 --------------------------------------------------------------*/
 @import "base/base";
 
-body{
-	padding: 2rem;
-}
 
-.button{
-	font-style: italic;
-    color: #ec407a;
-}
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "layout/_sidebar-content";
 
-.site{
-	border: 1px solid;
-    padding: 1rem;
-    border-radius: 1rem;
-	*+*{
-		margin-top: 2rem;
-	}
-}
+
+
+// body{
+// 	padding: 2rem;
+// }
+
+// .button{
+// 	font-style: italic;
+//     color: #ec407a;
+// }
+
+// .site{
+// 	border: 1px solid;
+//     padding: 1rem;
+//     border-radius: 1rem;
+// 	*+*{
+// 		margin-top: 2rem;
+// 	}
+// }

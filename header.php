@@ -27,5 +27,6 @@
             Le menu va etre generer par worpress
             </nav>
         </header>
-    
-
+        <section class="site__sidebar">
+            <h3>Sid e bar</h3>
+        </section>

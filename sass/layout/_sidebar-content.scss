@@ -1,0 +1,56 @@
+.site {
+	display: grid;
+	gap: 2rem;
+}
+
+.site > * {
+	padding-inline: 2rem;
+}
+
+
+.site__header {
+	background-color: $color-background__zonegrid;
+}
+
+.site__main {
+	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+	background-color: lighten($color-background__zonegrid, 10%);
+}
+
+.site__sidebar {
+	background-color: lighten($color-background__zonegrid, 20%);
+}
+
+.site__footer {
+	background-color: lighten($color-background__zonegrid, 20%);
+	padding: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+	
+	.site {
+		grid-template-columns: ($size__site-sidebar) auto;
+		grid-template-areas:
+		"header header"
+		"sidebar main"
+		"footer footer";
+	}
+	.site__header {
+		grid-area: header;
+	}
+	.site__main {
+		grid-area: main;
+	}
+	.site__sidebar {
+		grid-area: sidebar;
+	}
+	.site__footer {
+		grid-area: footer;
+		background-color: lighten($color-background__zonegrid, 20%);
+		padding: 1rem;
+	}
+
+}
+	
+// @import "no-sidebar";

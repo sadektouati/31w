@@ -396,7 +396,31 @@ h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: clamp(1.5rem, 5vw, 5rem);
+  font-size: clamp(2rem, 5vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+}
+
+h4 {
+  font-size: clamp(1.2rem, 2vw, 2rem);
+}
+
+h5 {
+  font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
+p {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
 hr {
@@ -557,22 +581,55 @@ textarea {
   width: 100%;
 }
 
-body {
-  padding: 2rem;
-}
-
-.button {
-  font-style: italic;
-  color: #ec407a;
-}
-
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
 .site {
-  border: 1px solid;
-  padding: 1rem;
-  border-radius: 1rem;
+  display: grid;
+  gap: 2rem;
 }
 
-.site * + * {
-  margin-top: 2rem;
+.site > * {
+  padding-inline: 2rem;
+}
+
+.site__header {
+  background-color: #9d86fb;
+}
+
+.site__main {
+  overflow: hidden;
+  /* Resolves issue with <pre> elements forcing full width. */
+  background-color: #c5b7fd;
+}
+
+.site__sidebar {
+  background-color: #ede9fe;
+}
+
+.site__footer {
+  background-color: #ede9fe;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .site {
+    grid-template-columns: 20vw auto;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+  }
+  .site__header {
+    grid-area: header;
+  }
+  .site__main {
+    grid-area: main;
+  }
+  .site__sidebar {
+    grid-area: sidebar;
+  }
+  .site__footer {
+    grid-area: footer;
+    background-color: #ede9fe;
+    padding: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -659,8 +659,7 @@ textarea {
 
 .site__footer {
   grid-area: footer;
-  background-color: #ede9fe;
-  padding: 1rem;
+  padding: 1rem 4rem;
 }
 
 @media screen and (min-width: 768px) {

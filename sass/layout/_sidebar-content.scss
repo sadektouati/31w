@@ -15,7 +15,18 @@
 
 .site__header {
 	grid-area: header;
-	background-color: $color-background__zonegrid;
+}
+
+.site__header {
+	grid-area: header;
+}
+
+.site__header a {
+	color: orangered;
+}
+
+.site__header h2 {
+	border-bottom: 2px solid orangered;
 }
 
 .site__main {

@@ -627,6 +627,7 @@ textarea {
   margin-top: 3rem;
   color: gray;
   border-bottom: 1px solid;
+  font-size: 1.75rem;
 }
 
 .site__main p {

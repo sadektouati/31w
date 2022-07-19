@@ -76,16 +76,23 @@
 .site__sidebar {
 	grid-area: sidebar;
 	background-color: lighten($color-background__zonegrid, 20%);
-}
-
-.site__sidebar * + *{
+	* + *{
 	margin-top: 2rem;
-}
-.site__sidebar p{
+	}
+
+	p{
 	font-size: 1rem;
+	}
+
+	.menu-menu-sidebar{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
 }
 
 .site__footer {
+	border-top: 2px solid orangered;
 	grid-area: footer;
 	padding: 1rem 4rem;
 }

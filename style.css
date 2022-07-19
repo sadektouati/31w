@@ -590,6 +590,13 @@ textarea {
   grid-template-areas: "header" "main" "sidebar" "footer";
 }
 
+@media screen and (min-width: 768px) {
+  .site {
+    grid-template-columns: 20rem auto;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+  }
+}
+
 .site > * {
   padding: 2rem;
 }
@@ -664,12 +671,5 @@ textarea {
 .site__footer {
   grid-area: footer;
   padding: 1rem 4rem;
-}
-
-@media screen and (min-width: 768px) {
-  .site {
-    grid-template-columns: 20rem auto;
-    grid-template-areas: "header header" "sidebar main" "footer footer";
-  }
 }
 /*# sourceMappingURL=style.css.map */

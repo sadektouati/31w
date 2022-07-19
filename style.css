@@ -596,6 +596,7 @@ textarea {
 
 .site__header {
   grid-area: header;
+  padding-inline: 3rem;
 }
 
 .site__header {

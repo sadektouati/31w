@@ -1,9 +1,15 @@
 @charset "UTF-8";
 /*!
- * Plugin Name: Theme TP
- * Author: Saddek Touati
- * Description: theme de TP
- * Plugin URI: https://github.com/sadektouati/31w/tree/tp1
+Theme Name: 31W-cours-1 
+Author: Saddek Touati
+Author URI: http://github.com/sadektouati
+Description: Thème de base pour mon cours de 31W
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: 31-w
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
